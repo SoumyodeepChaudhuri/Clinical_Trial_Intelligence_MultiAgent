@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+secrets/
+credentials/
+*.json
+
+# GCP / Terraform / build artifacts
+.terraform/
+*.tfstate
+*.tfstate.*
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

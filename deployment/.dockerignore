@@ -1,0 +1,54 @@
+##############################################################################
+# deployment/.dockerignore
+#
+# Lists files and folders that Docker should IGNORE when building the image.
+# Works exactly like .gitignore but for Docker builds.
+# Keeping the build context small makes builds faster.
+##############################################################################
+
+# Never include secrets in Docker images
+.env
+.env.*
+
+# Python cache — unnecessary in containers
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment — packages come from requirements.txt
+.venv/
+venv/
+env/
+
+# Development and testing
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Version control
+.git/
+.gitignore
+
+# Data directories — data lives in GCS, not in the image
+data/
+notebooks/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Deployment files themselves (no need to copy these into the image)
+deployment/
