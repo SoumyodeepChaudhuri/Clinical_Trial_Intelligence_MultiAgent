@@ -38,7 +38,7 @@
 
 
 from functools import lru_cache
-# lru_cache is Python's built-in memoisation decorator.
+# lru_cache is Python's built-in decorator.
 # Applied to a function, it caches the result of the first call
 # and returns that cached result on all subsequent calls.
 # Perfect for expensive-to-create objects like database connection pools.
