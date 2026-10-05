@@ -604,5 +604,6 @@ gcloud sql instances patch clinical-trial-db \
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
-#   T r i a l _ I n t e l l i g e n c e _ M u l t i A g e n t  
+#   T r i a l _ I n t e l l i g e n c e _ M u l t i A g e n t 
+ 
  
