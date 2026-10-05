@@ -1,4 +1,4 @@
-# MOSAIC — Multi-Agent Clinical Trial Intelligence System
+# Multi-Agent Clinical Trial Intelligence System
 
 > A production-grade multi-agent AI system that detects research integrity signals across clinical trials using 6 specialist agents running in parallel on Google Cloud Platform.
 
